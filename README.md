@@ -11,8 +11,7 @@ A Claude Code skill that makes promo, explainer, ad and sales videos entirely fr
 /plugin install code-drawn-video@code-drawn-video
 ```
 
-The repository is private: you need read access, and your git must be signed in to GitHub
-(`gh auth login`). For background auto-updates, set `GITHUB_TOKEN` in your shell.
+You need Claude Code and git; no GitHub account is required.
 
 ## Install as a plain skill
 
