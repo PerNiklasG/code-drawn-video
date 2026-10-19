@@ -1,0 +1,8 @@
+{
+ "background": "TODO #RRGGBB: the main background colour",
+ "background2": "TODO #RRGGBB: second background colour (gradient end, halftone dots)",
+ "ink": "TODO #RRGGBB: outlines and default text",
+ "accent": "TODO #RRGGBB: the brand's main accent",
+ "highlight": "TODO #RRGGBB: a second accent for sparks, bursts and emphasis",
+ "note": "Add every other colour the scenes use under its own key. Sample them from the brand's art with scripts/sample-palette.mjs."
+}

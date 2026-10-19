@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>code-drawn video</title>
+<style>
+html, body { margin: 0; background: #222; }
+canvas { display: block; width: 1920px; height: 1080px; }
+</style></head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="lib.js"></script>
+<script src="look.js"></script>
+<script src="fx.js"></script>
+<script src="scenes.js"></script>
+<script>
+  // Interactive scrub when opened by hand: ?t=12.5
+  const q = new URLSearchParams(location.search);
+  if (q.has('t')) { const wait = () => window.READY ? renderFrame(parseFloat(q.get('t'))) : setTimeout(wait, 50); wait(); }
+</script>
+</body></html>

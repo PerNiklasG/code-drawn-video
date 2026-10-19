@@ -1,0 +1,4 @@
+{
+ "preset": "TODO: decide the style direction with the user (references/style.md), then name a preset from styles/ or \"custom\"",
+ "note": "Overrides go next to preset, e.g. \"captions\": { \"size\": 100 }, \"transitions\": [\"cut\", \"flash\"]. Record why this direction was chosen in ../style-note.md."
+}

@@ -1,0 +1,15 @@
+{
+ "description": "Type-driven: big bold words landing one by one on the beat over a dark or flat field, hard cuts, flashes and glitches, still camera, electronic music. The words are the visuals; few shapes.",
+ "background": { "type": "dark", "color": "background", "vignette": 0.5 },
+ "line": { "type": "clean", "width": 5, "wobble": 0, "boilFps": 0 },
+ "letterJitter": 0,
+ "captions": { "style": "kinetic", "y": 540, "size": 150, "caps": true, "color": "#FFFFFF" },
+ "transitions": ["cut", "flash", "glitch", "punch"],
+ "transitionDuration": 0.25,
+ "motion": { "energy": "punchy" },
+ "camera": { "type": "still" },
+ "flashColor": "accent",
+ "subtitles": { "color": "#FFFFFF", "halo": "#000000" },
+ "voice": { "prompt": "A confident, fast, rhythmic ad read. Short punchy phrases, energy up, crisp consonants.", "tempo": 1.08, "pauseScale": 0.6 },
+ "music": { "genre": "electronic-drive" }
+}

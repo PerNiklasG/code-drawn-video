@@ -1,0 +1,16 @@
+{
+ "description": "Punchy comic-book ad: halftone fields, thick black outlines, slam-in titles with hard shadows, action bursts, speed lines, sparks and explosions, whip-pans, flashes and zoom punches, camera shake, driving music and SFX.",
+ "background": { "type": "halftone", "color": "background", "dotColor": "background2", "dotSize": 7, "dotSpacing": 24 },
+ "line": { "type": "outline", "width": 9, "wobble": 0, "boilFps": 0 },
+ "letterJitter": 0,
+ "captions": { "style": "slam", "y": 900, "size": 116, "caps": true, "color": "#FFFFFF", "outline": "ink", "shadow": "ink" },
+ "transitions": ["whip", "flash", "punch", "glitch", "iris"],
+ "transitionDuration": 0.34,
+ "motion": { "energy": "punchy" },
+ "camera": { "type": "shake", "amount": 0.8 },
+ "flashColor": "#FFFFFF",
+ "whipColor": "#FFFFFF",
+ "subtitles": { "color": "#FFFFFF", "halo": "ink" },
+ "voice": { "prompt": "An energetic, upbeat ad read with attitude. Fast, bright, punchy; lift on the product name.", "tempo": 1.08, "pauseScale": 0.55 },
+ "music": { "genre": "electronic-drive" }
+}

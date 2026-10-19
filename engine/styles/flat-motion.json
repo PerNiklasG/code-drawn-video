@@ -1,0 +1,14 @@
+{
+ "description": "Clean geometric motion graphics: soft gradient, flat shapes without outlines, smooth eases with no overshoot, slow push-in, lower-third captions, iris and slide transitions, lo-fi or electronic music. Corporate-friendly product explainers.",
+ "background": { "type": "gradient", "color": "background", "color2": "background2", "radial": true },
+ "line": { "type": "none", "width": 4, "wobble": 0, "boilFps": 0 },
+ "letterJitter": 0,
+ "captions": { "style": "lowerThird", "y": 930, "size": 50, "color": "#FFFFFF", "box": "accent", "bar": "highlight" },
+ "transitions": ["iris", "slide", "dissolve", "punch"],
+ "transitionDuration": 0.55,
+ "motion": { "energy": "smooth" },
+ "camera": { "type": "push", "amount": 0.6 },
+ "subtitles": { "color": "#FFFFFF", "halo": "ink" },
+ "voice": { "prompt": "A clear, friendly product expert. Even pace, confident, precise, lightly upbeat.", "tempo": 1.0, "pauseScale": 0.9 },
+ "music": { "genre": "lo-fi" }
+}

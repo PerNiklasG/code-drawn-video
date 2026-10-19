@@ -1,0 +1,14 @@
+{
+ "description": "Hand-drawn explainer: paper grain, wobbly lines that boil, handwritten captions writing on, gentle pop-ins, slow Ken Burns, soft transitions, acoustic music. One option among several; never the default.",
+ "background": { "type": "paper", "color": "background", "grain": 1 },
+ "line": { "type": "wobbly", "width": 6, "wobble": 1, "boilFps": 8 },
+ "letterJitter": 1,
+ "captions": { "style": "handwritten", "y": 905, "size": 68, "color": "ink" },
+ "transitions": ["slide", "dissolve", "zoom", "wipe"],
+ "transitionDuration": 0.6,
+ "motion": { "energy": "calm" },
+ "camera": { "type": "kenburns", "amount": 1 },
+ "subtitles": { "color": "ink", "halo": "background" },
+ "voice": { "prompt": "A warm, unhurried storyteller talking to a friend. Natural, a little smile in the voice. Not an advert.", "tempo": 1.0, "pauseScale": 1.0 },
+ "music": { "genre": "acoustic-gentle" }
+}

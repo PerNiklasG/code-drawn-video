@@ -1,0 +1,25 @@
+{
+ "name": "TODO-My-Video-v1",
+ "language": "en",
+ "voice": {
+  "provider": "TODO: kokoro | gemini | openai | elevenlabs | recorded",
+  "voice": "TODO: the voice you picked by ear with scripts/audition.mjs",
+  "prompt": "",
+  "tempo": null,
+  "pauseScale": null
+ },
+ "leadIn": 0.8,
+ "tail": 2.5,
+ "lines": [
+  ["L01", "hook", "TODO: the first spoken line.", 0.4],
+  ["L02", "cta", "TODO: the last spoken line.", 0]
+ ],
+ "wordCues": {},
+ "numberWords": {},
+ "soundalikes": [],
+ "ttsRespell": [],
+ "music": { "genre": null, "bpm": null, "transpose": 0, "sections": {}, "file": null },
+ "sfx": { "gain": 0, "files": {} },
+ "mix": { "mute": "none", "duck": -20, "gap": -12 },
+ "encode": { "crf": 18 }
+}

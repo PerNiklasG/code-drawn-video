@@ -1,0 +1,5 @@
+{
+ "display": { "file": "fonts/TODO-Display.ttf", "family": "TODO display family", "spacing": 0.02, "caps": true },
+ "ui": { "file": "fonts/TODO-UI.ttf", "family": "TODO UI family", "weights": "400 800" },
+ "note": "display = captions and titles, chosen for the style direction (a handwriting face only for a hand-drawn look); ui = the brand's own site font for URLs, numbers and cards. Compare candidates with scripts/fontcmp.mjs."
+}
