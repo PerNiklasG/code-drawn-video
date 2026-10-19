@@ -2,6 +2,10 @@
   "name": "code-drawn-video",
   "version": "1.0.0",
   "description": "Promo, explainer, ad and sales videos drawn entirely from code, in a style chosen with you (flat motion, kinetic type, action comic, hand-drawn or custom).",
-  "author": { "name": "Niklas Grundström", "email": "niklas_G_92@hotmail.com" },
-  "repository": "https://github.com/PerNiklasG/code-drawn-video"
+  "author": {
+    "name": "Niklas Grundström",
+    "email": "niklas_G_92@hotmail.com"
+  },
+  "repository": "https://github.com/PerNiklasG/code-drawn-video",
+  "license": "MIT"
 }
