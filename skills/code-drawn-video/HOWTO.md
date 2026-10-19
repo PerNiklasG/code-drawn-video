@@ -5,9 +5,13 @@ You talk to Claude Code in plain language. The skill does the rest and stops to 
 ## 1. Install (once)
 
 1. Install **Node.js 20+** and **Google Chrome**. ffmpeg is fetched automatically if you don't have it.
-2. Unzip this folder to:
-   - Mac / Linux: `~/.claude/skills/code-drawn-video`
-   - Windows: `%USERPROFILE%\.claude\skills\code-drawn-video`
+2. Install the skill, either way:
+   - **As a plugin** (needs git): in Claude Code, run
+     `/plugin marketplace add PerNiklasG/code-drawn-video` and then
+     `/plugin install code-drawn-video@code-drawn-video`.
+   - **From the zip**: unzip this folder to
+     `~/.claude/skills/code-drawn-video` (Mac / Linux) or
+     `%USERPROFILE%\.claude\skills\code-drawn-video` (Windows).
 3. Start a new Claude Code session.
 
 ## 2. Check it works
