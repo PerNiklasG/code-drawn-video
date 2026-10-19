@@ -1,0 +1,17 @@
+{
+  "name": "code-drawn-video",
+  "owner": {
+    "name": "Niklas Grundström",
+    "email": "niklas_G_92@hotmail.com"
+  },
+  "plugins": [
+    {
+      "name": "code-drawn-video",
+      "source": "./",
+      "description": "Promo, explainer, ad and sales videos drawn entirely from code, in a style chosen with you."
+    }
+  ],
+  "metadata": {
+    "description": "Claude Code skill for videos drawn entirely from code."
+  }
+}
